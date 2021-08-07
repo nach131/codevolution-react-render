@@ -1,12 +1,12 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { UseState } from './components/UseState/UseState';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-
-        <button type="button" className="btn btn-outline-warning">Warning</button>
+        <UseState />
       </header>
     </div>
   );
