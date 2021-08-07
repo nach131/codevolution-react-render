@@ -1,14 +1,13 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Button } from 'react-bootstrap';
+import { UseReducer } from './component/UseReduer/UseReducer';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-
-        <Button variant="outline-info">Info</Button>
-
+        <p>useReduce</p>
+        <UseReducer />
       </header>
     </div>
   );
