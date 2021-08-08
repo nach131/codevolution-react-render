@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Button } from 'react-bootstrap';
+import { GrandParent } from './componentes/Optimization/GrandParent';
 
 function App() {
   return (
@@ -9,10 +9,7 @@ function App() {
         <div className="row">
           <div className="col">
 
-            <Button
-              variant="outline-info">click
-            </Button>
-
+            <GrandParent />
           </div>
         </div>
       </header>
