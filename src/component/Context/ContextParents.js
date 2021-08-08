@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Button } from 'react-bootstrap';
-import { ChildA } from './ContextChildren'
+import { MemoizedChildA } from './ContextChildren'
 
 export const CountContex = React.createContext()
 const CountProvider = CountContex.Provider
@@ -11,14 +11,14 @@ export const ContextParents = () => {
   console.log('ContextParents');
   return (
     <div>
-      <h5>14 - Context</h5>
+      <h5>15 - Context and memo</h5>
       <Button
         onClick={() => setCount(c => c + 1)}
         variant="outline-info">Count: {count}
       </Button>
       {/* usamos el provider */}
       <CountProvider value={count}>
-        <ChildA />
+        <MemoizedChildA />
       </CountProvider>
     </div>
   )
