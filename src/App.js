@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { GrandParent } from './componentes/Optimization/GrandParent';
+import { Parent } from './componentes/Optimization/Parent';
 
 function App() {
   return (
@@ -8,8 +8,7 @@ function App() {
       <header className="App-header">
         <div className="row">
           <div className="col">
-
-            <GrandParent />
+            <Parent />
           </div>
         </div>
       </header>
