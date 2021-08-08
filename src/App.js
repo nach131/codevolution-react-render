@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Button } from 'react-bootstrap';
+import { ContextParents } from './component/Context/ContextParents';
 
 function App() {
   return (
@@ -8,11 +8,7 @@ function App() {
       <header className="App-header">
         <div className="row">
           <div className="col">
-
-            <Button
-              variant="outline-info">click
-            </Button>
-
+            <ContextParents />
           </div>
         </div>
       </header>
